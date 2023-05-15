@@ -1,0 +1,78 @@
+#vl{
+padding-left: 5px;
+    border-left: 1px solid rgb(0, 51, 102);
+
+}
+#hel{
+    margin: 3%;
+}
+#hel a{
+   text-decoration: none;
+   color: rgb(0, 51, 102);
+   font-family: arial, verdena;
+   font-size: 13px;
+}
+body{
+   background-image: url('background.png');
+   background-repeat: repeat-x;
+   font-family: arial, verdena;
+    
+}
+#titt{
+    display:grid;
+    grid-template-columns: 2fr 9fr;
+    margin-left: 5%;
+}
+#titt h1{
+    margin-left: 400px;
+    font-family: arial, verdena;
+    font-weight: 200;
+}
+#items{
+   margin-left: 20px;
+    border-radius: 20px;
+
+    padding-bottom: 15px;
+    background-color: #dfdfdf;
+    width: 150px;
+}
+#items a{
+   
+    padding: 10px;
+    color:rgb(36, 89, 141) ;
+    font-family: arial, verdena;
+    font-size: 12px;
+    text-decoration: none;
+}
+#items a img{
+    padding: 4px;
+}
+
+#items p{
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 0px;
+    font-family: arial, verdena;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0, 51, 102);
+    padding: 5px 10px;
+}
+hr{
+    color: grey;
+}
+table{
+ 
+    width: 80%;
+}
+#hoyr{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+td, th{
+    font-size: 10px;
+   text-align: center;
+   padding: 2px;
+}
